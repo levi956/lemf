@@ -4,6 +4,8 @@ import 'package:lemfy_task_in_flutter/injectable.dart';
 
 import 'core/framework/environment/environment.dart';
 
+// NOTE: SAVED STASH IN CODE PLAYGROUND
+
 void main() {
   configureDependencies();
   WidgetsFlutterBinding.ensureInitialized();
