@@ -4,7 +4,6 @@ import 'package:floating/floating.dart';
 import 'package:flutter/material.dart';
 import 'package:lemfy_task_in_flutter/injectable.dart';
 
-import '../modules/students/presentation/pages/student_list_page.dart';
 
 class PictureInPictureWrapper extends StatefulWidget {
   final Widget body;
@@ -49,7 +48,6 @@ class _PictureInPictureWrapperState extends State<PictureInPictureWrapper>
 
   @override
   Widget build(BuildContext context) {
-    setStatusBarColor(color: BarColor.black);
     return Platform.isAndroid
         ? PiPSwitcher(
             floating: floating,

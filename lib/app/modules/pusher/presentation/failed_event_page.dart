@@ -3,6 +3,7 @@ import 'package:lemfy_task_in_flutter/app/modules/students/presentation/pages/st
 import 'package:lemfy_task_in_flutter/core/compass/compass.dart';
 import 'package:lemfy_task_in_flutter/injectable.dart';
 
+import '../../../../core/framework/navigation.dart';
 import '../service/pusher_service.dart';
 
 class FailedEventPage extends StatefulWidget {
