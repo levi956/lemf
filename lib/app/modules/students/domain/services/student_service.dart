@@ -12,6 +12,7 @@ class StudentService implements StudentServiceInterface {
   @override
   Future<List<StudentModel>> getStudents() async {
     final r = await HTTP.get('students');
+
     if (r.is200or201) {
       List<dynamic> body = jsonDecode(r.body);
       final students = body.map((e) => StudentModel.fromJson(e)).toList();
